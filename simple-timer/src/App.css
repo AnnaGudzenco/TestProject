@@ -1,0 +1,52 @@
+
+.timer {
+  padding-top: 100px;
+  text-align: center;
+  background-color: rgb(228, 227, 227);
+  height: 100vh;
+}
+.App-link {
+  color: #61dafb;
+}
+.timer__inner{
+  font-size: 6rem;
+  text-shadow: #61dafb;
+}
+.timer__btn{
+  margin: 40px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.timer__btn--start{
+  background-color: rgb(4, 124, 0);
+  
+}
+.timer__btn--start:hover{
+  background-color: rgb(43, 173, 39);
+  outline: 2px solid rgb(43, 173, 39);
+}
+.timer__btn--stop{
+  background-color: rgb(160, 7, 7);
+  
+}
+.timer__btn--stop:hover{
+  background-color: rgb(192, 37, 37);
+  outline: 2px solid rgb(189, 10, 10);
+}
+.timer__btn--weit{
+  background-color: rgb(13, 4, 138);
+}
+.timer__btn--weit:hover{
+  background-color: rgb(31, 27, 238);
+  outline: 2px solid rgb(49, 47, 214);
+}
+.timer__btn--reset{
+  background-color: rgb(221, 155, 32);
+}
+.timer__btn--reset:hover{
+  background-color: rgb(240, 199, 17);
+  outline: 2px solid rgb(221, 155, 32);
+}
